@@ -104,7 +104,8 @@ h1 {
   margin-top: 20px;
 }
 
-#studentsSection {
+#studentsSection,
+#dataSection {
   text-align: center;
 }
 

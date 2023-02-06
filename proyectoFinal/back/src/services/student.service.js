@@ -1,6 +1,6 @@
 const connection = require('./../database')
 
-async function findMany() {
+function findMany() {
   const sql = 'SELECT * FROM student'
   return makeQuery(sql)
 }

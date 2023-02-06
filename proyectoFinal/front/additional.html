@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>School-Node</title>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div class="container">
+      <h1>Haz tu consulta</h1>
+      <input id="id" type="text" placeholder="ID de alumno" />
+      <button onclick="getAvgMark()">Nota Media</button>
+      <button onclick="getStudentsSubjects()">Apuntadas</button>
+      <button onclick="getTeachersSubjects()">Impartidas</button>
+      <section id="dataSection"></section>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="module" src="./scripts/navbar.js"></script>
+    <script src="./scripts/additional.js"></script>
+  </body>
+</html>
